@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <h1 align="center">
-  Shuja B Portfolio Website
+  Shujaaaaaa Portfolio Website
 </h1>
 
 1.  **Start developing.**
@@ -37,4 +37,5 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     └── README.md
 
 <!-- AUTO-GENERATED-CONTENT:END -->
-"# Portfolio" 
+
+"# Portfolio"
