@@ -268,6 +268,11 @@ header {
 .project-image-container {
   width: 30%;
 }
+@media (max-width: 480px) {
+  .project-image-container {
+    display: none;
+  }
+}
 
 .project-image {
   height: 400px;
@@ -319,7 +324,7 @@ header {
   }
 
   .project-text {
-    background-color: #3f4255;
+    background-color: #558291;
     margin-bottom: 20px;
     padding: 18px;
   }
@@ -333,7 +338,7 @@ header {
 
   .project-tools {
     padding: 7px;
-    background-color: #3f4255;
+    background-color: #aadbdb;
     word-spacing: 10px;
   }
 
