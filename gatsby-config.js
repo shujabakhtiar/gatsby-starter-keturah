@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Keturah`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Shuja Bakhtiar`,
+    description: `. Portfolio site for Shuja the WebDev.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -9,14 +9,14 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: "gatsby-remark-relative-images",
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               maxWidth: 590,
             },
@@ -34,15 +34,14 @@ module.exports = {
               icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
             },
           },
-    
-        ]
-      }
-  },
+        ],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        name: 'content',
+        name: "content",
         path: `${__dirname}/src/content/`,
       },
     },
@@ -58,12 +57,12 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ['Roboto', 'Droid Serif', 'Abril Fatface', 'Poppins']
-        }
-      }
+          families: ["Roboto", "Droid Serif", "Abril Fatface", "Poppins"],
+        },
+      },
     },
   ],
 }
